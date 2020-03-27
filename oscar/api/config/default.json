@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://admin:admin@112@freecluster-kpaxr.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtToken": "jwtTokenHandsome"
-}
