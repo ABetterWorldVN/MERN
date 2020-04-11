@@ -1,4 +1,7 @@
 {
   "mongoURI": "mongodb+srv://nqvinh:nqvinh@123@vndev-ycr1j.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "jwtsecret"
+  "mongoURI1": "mongodb+srv://admin:admin@112@freecluster-kpaxr.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "jwtsecret",
+  "githubClientId": "81a4739237dc3d24d8f3",
+  "githubClientSecret": "81a4739237dc3d24d8f3"
 }
