@@ -14,7 +14,7 @@ connectDB();
 // init middleware
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) => res.send('Hello World'));
+app.get('/', (req, res) => res.send('Learn MERN'));
 
 // Use Routes
 app.use('/api/users', users);
