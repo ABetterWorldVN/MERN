@@ -13,7 +13,8 @@ export default function (state = initialState, action) {
         case SET_ALERT:
             return [...state, payload];
         case REMOVE_ALERT:
-            return state.filter(a => alert.id !== payload);
+            // console.log('remove alert reducer', action);
+            return state.filter(a => a.id !== payload);
         default:
             return state;
     }

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 const Alert = ({ alerts }) => {
-    console.log('alerts', alerts);
+    // console.log('alerts', alerts);
     return alerts !== null
         && alerts.length > 0
         && alerts.map(al => (
