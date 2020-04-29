@@ -77,4 +77,4 @@ Register.propTypes = {
     register: PropTypes.func.isRequired
 }
 
-export default connect(null, { setAlert })(Register)
+export default connect(null, { setAlert, register })(Register)
