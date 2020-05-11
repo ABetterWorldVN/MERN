@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://admin:admin@112@freecluster-kpaxr.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtToken": "jwtTokenHandsome"
+  "jwtToken": "jwtTokenHandsome",
+  "githubClientId": "22e0184a51af32b8724c",
+  "githubClientSecret": "917af973bf0d53215f28e7bc73127ccddb068b2d"
 }
