@@ -9,7 +9,8 @@ export const loadUser = () => async dispatch => {
     }
 
     try {
-        const res = await axios.get('/api/auth', { baseURL: 'http://localhost:5000' });
+        // const res = await axios.get('/api/auth', { baseURL: 'http://localhost:5000' });
+        const res = await axios.get('/api/auth');
 
         dispatch({
             type: USER_LOADED,
@@ -24,10 +25,10 @@ export const loadUser = () => async dispatch => {
 
 export const register = ({ name, email, password }) => async dispatch => {
     const config = {
-        header: {
+        headers: {
             'Content-Type': 'application/json'
-        },
-        baseURL: 'http://localhost:5000'
+        }
+        // baseURL: 'http://localhost:5000'
     }
 
     const body = JSON.stringify({ name, email, password });
