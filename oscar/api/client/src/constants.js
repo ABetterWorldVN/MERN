@@ -1,0 +1,3 @@
+const MERNAPP_TOKENKEY = 'MERNAPP_TOKENKEY';
+
+export default MERNAPP_TOKENKEY;
