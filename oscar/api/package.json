@@ -13,6 +13,7 @@
   "author": "Oscar",
   "license": "UNLICENSED",
   "dependencies": {
+    "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "config": "^3.3.0",
